@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* GENERAL STYLES */
+body {
+    font-family: "Inter", sans-serif;
+    background-color: hsl(0, 0%, 8%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+    color: hsl(0, 0%, 100%);
+}
+
+/* CONTAINER */
+.profile {
+    width: 100%;
+    max-width: 375px; /* Mobile width */
+    background-color: hsl(0, 0%, 12%);
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+}
+
+/* AVATAR */
+.profile img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    max-width: 100%;
+}
+
+/* NAME */
+.name {
+    font-size: 1.5rem;
+    color: hsl(0, 0%, 100%);
+    font-weight: 700;
+    margin: 20px 0 0 0;
+}
+
+/* LOCATION */
+.location {
+    font-size: 0.75rem;
+    font-weight: 400;
+    color: hsl(75, 94%, 57%);
+    margin: 10px 0 0 0;
+}
+
+/* QUOTE */
+blockquote {
+    color: hsl(0, 0%, 100%);
+    margin: 20px 0;
+    font-size: 0.875rem;
+    font-weight: 600;
+}
+
+/* SOCIAL LINKS */
+.social-links ul li {
+    list-style-type: none;
+}
+
+.social-links ul li:not(:last-child) {
+    margin: 10px 0;
+}
+
+
+.social-links ul li a {
+    background-color: hsl(0, 0%, 20%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    width: 100%;
+    max-width: 300px;
+    height: 50px;
+    border-radius: 5px;
+    color: hsl(0, 0%, 100%);
+    font-weight: 700;
+    text-align: center;
+    transition: background-color 0.3s ease-in-out;
+    text-decoration: none;
+}
+
+/* Focus style for Hover effect and keyboard navigation */
+.social-links ul li a:focus, .social-links ul li a:hover {
+    background-color: hsl(75, 94%, 57%);
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+    margin-top: 10px;
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%);
+    text-decoration: none; 
+}
+
+.attribution a:hover, .attribution a:focus {
+    text-decoration: underline;
+}
+
