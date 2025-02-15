@@ -32,8 +32,8 @@ See hover and focus states for all interactive elements on the page.
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Solution](https://www.frontendmentor.io/solutions/responsive-social-links-profile-k3rOPySKdF)
+- Live Site URL: [Live Site](https://social-links-profile-main-one-sand.vercel.app/)
 
 ## My process
 
